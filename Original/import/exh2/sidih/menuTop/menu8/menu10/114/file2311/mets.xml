@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2311"
+           OBJID="http://hdl.handle.net/20.500.12325/file2311">
+   <METS:metsHdr CREATEDATE="2020-11-23T05:22:07.441+01:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">Zapisnik dogovora med nemškim poverjenikom Siegfriedom Kaschejem in hrvaškim zunanjim ministrom Mladenom Lorkovićem s 17. junija 1941, kjer je zabeleženo, da bo meja pri Rogaški Slatini tekla po Sotli, kot je bilo to pred aprilom 1941.</dc:description>
+            <dc:description xml:lang="eng">The minutes of an agreement between the German Ambassador Siegfried Kasche and the Croatian Foreign Minister Mladen Lorković on 17 June 1941, which state that the border at Rogaška Slatina will run along the Sotla River, as it had prior to April 1941.</dc:description>
+            <dc:source>Nezavisna država Hrvatska, Ministarstvo vanjskih poslova. Međunarodni ugovori 1941, str. 95.</dc:source>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2311"
+                    OWNERID="exh02-Meje-pano8-image4.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2311"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh02-Meje-pano8-image4.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2311"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

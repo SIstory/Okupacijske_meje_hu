@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2299"
+           OBJID="http://hdl.handle.net/20.500.12325/file2299">
+   <METS:metsHdr CREATEDATE="2020-11-23T05:22:07.441+01:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">Poročilo o nastanitvi vojaškega in uradniškega osebja v Rogaški Slatini. Miglitsch, nemški župan Rogaške Slatine, je 13. oktobra 1941 poročal, da v zdravilišču biva 72 vojakov in 27 oficirjev. Na razpolago jim je bilo 22 motornih vozil, parkiranih v garažah Zdraviliškega doma. V Novi Švicariji bivajo nemški podoficirji in pripadajoče kuharsko osebje, oficirjem in uradnikom pa so namenili 25 sob v drugem in tretjem nadstropju hotela Štajerski dvor (pred nemško zasedbo Jugoslovanski kralj). Februarja 1943 so v tem hotelu vzpostavili tudi policijske bolnice. V Ljubljanskem domu so bile po ukinitvi Komarekovega političnega komisariata Šmarje pri Jelšah vzpostavljene razne uradniške pisarne številnih oddelkov. Drugi nastanitveni prostori zdravilišča, ki je med drugim razpolagalo celo z nočnim kopališčem, pekarno in lastnim gledališčem oz. kinodvorano, so bili namenjeni izbranim gostom iz okupiranih dežel tretjega rajha.</dc:description>
+            <dc:description xml:lang="eng">Report on the accommodation of military and clerical personnel in Rogaška Slatina. Miglitsch, the German mayor of Rogaška Slatina, reported on 13 October 1941 that 72 soldiers and 27 officers were staying at the health resort. They had 22 motor vehicles at their disposal, which were parked in the garages of Zdraviliški dom. German non-commissioned officers and the accompanying kitchen staff were staying at the Nova Švicarija Hotel, while officers and clerks were assigned 25 rooms on the second and third floors of the Štajerski dvor Hotel (called Jugoslovanski kralj before the German occupation). In February 1943, police hospitals were also set up in this hotel. In Ljubljanski dom, after the abolition of Komarek's political commissariat of Šmarje pri Jelšah, many offices of various departments were set up. Other accommodation facilities in the health resort, which also contained a night-time swimming pool, a bakery and its own theatre or cinema, were intended for select guests from the countries occupied by the Third Reich.</dc:description>
+            <dcterms:provenance>Arhiv Republike Slovenije</dcterms:provenance>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2299"
+                    OWNERID="exh02-Meje-pano6-image6.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2299"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh02-Meje-pano6-image6.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2299"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

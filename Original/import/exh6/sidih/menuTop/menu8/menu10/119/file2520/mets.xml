@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2520"
+           OBJID="http://hdl.handle.net/20.500.12325/file2520">
+   <METS:metsHdr CREATEDATE="2021-04-07T19:56:40.256+02:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">S partizanske skice in zemljevida je razvidno, kako so italijanski okupatorji utrdili Šentjernej. Obdali so ga z dvema obročema bodeče žice in bunkerji. Prvi obroč je obsegal mestno jedro, drugi je potekal po obrobju. V centru mesta so imeli tudi topovsko baterijo, s katero so obstreljevali partizanske položaje na Gorjancih. Mesto so okrasili z italijanskimi zastavami in portreti Mussolinija, kar je lepo vidno s fotografije Dan mlačve. V bližini Šentjerneja je potekala tudi italijanska obrambna linija proti Gorjancem, prav tako zgrajena iz bunkerjev in bodeče žice, zavarovana s strelskimi jarki. Na fotografiji se je ohranil italijanski bunker v Šmarju, ki ga je kmalu po vojni fotografiral pater Hugo Rožnik, fotografijo pa hrani kartuzija Pleterje. Desno od bunkerja je bil bivalni del, ki je bil v času fotografiranja že porušen. Po pričevanju Janeza Kuhlja si je po vojni eden od krajanov gradil hišo iz materiala porušenega bunkerja.</dc:description>
+            <dc:description xml:lang="eng">The Partisan sketch and the map clearly show how the Italian occupying forces fortified Šentjernej. It was enclosed by two rings of barbed wire and bunkers. The first ring surrounded the centre of the town, while the other ran along its outskirts. In the centre of town, they also had an artillery battery with which they fired on the Partisan positions in the Gorjanci Hills. The town was decorated with Italian flags and portraits of Mussolini, which is visible in the photograph entitled »Threshing Day«. The Italian defensive line towards the Gorjanci Hills ran near Šentjernej; it, too, was made up of bunkers and barbed wire, and protected with firing trenches. Preserved in the photograph is the Italian bunker in Šmarje, which was photographed by monk Hugo Rožnik soon after the war; the photograph is kept by the monastery in Pleterje. There was a residential area to the right of the bunker, but it had been demolished before the photograph was taken. According to Janez Kuhelj, one of the townspeople built a house from the remains of the demolished bunker.</dc:description>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2520"
+                    OWNERID="exh06-Meje-pano9-image1.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2520"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh06-Meje-pano9-image1.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2520"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

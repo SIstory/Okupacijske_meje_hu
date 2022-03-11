@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2316"
+           OBJID="http://hdl.handle.net/20.500.12325/file2316">
+   <METS:metsHdr CREATEDATE="2020-11-23T05:22:07.441+01:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">Reka Sotla je še danes mejna reka med Republiko Slovenijo in Republiko Hrvaško. Od leta 1941 do leta 1945 pa je bila mejna reka med nemškim rajhom in NDH. Konec leta 1941 so jo Nemci močno zastražili, obdali z žico in minskimi polji. Kljub temu pa se je preko nje kmalu tihotapilo. Najbolj iskano blago je bil sladkor, pa tobak, galica, sol, meso, mast, moko, jajca, tudi živina. Fotografija, ki je objavljena z dovoljenjem Boža Kolarja (hrani izvirnik), prikazuje menjavo blaga na Sotli v neposredni bližini Rogaške Slatine, verjetno poleti 1944 leta.</dc:description>
+            <dc:description xml:lang="eng">The Sotla River is still the boundary river between the Republic of Slovenia and the Republic of Croatia. From 1941 to 1945 it was the boundary river between the German Reich and the NDH. In late 1941, the Germans guarded it heavily, enclosing it with barbed wire and minefields. Despite that, people soon started smuggling across it. The goods in high demand were sugar, tobacco, vitriol, salt, meat, fat, flour, eggs and even livestock. The photograph published courtesy of Božo Kolar (who owns the original) depicts the trading of goods at the Sotla River in the immediate vicinity of Rogaška Slatina, most likely in the summer of 1944.</dc:description>
+            <dcterms:provenance>Božo Kolar</dcterms:provenance>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2316"
+                    OWNERID="exh02-Meje-pano9-image4.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2316"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh02-Meje-pano9-image4.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2316"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

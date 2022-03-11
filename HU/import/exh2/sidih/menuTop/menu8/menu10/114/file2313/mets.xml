@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2313"
+           OBJID="http://hdl.handle.net/20.500.12325/file2313">
+   <METS:metsHdr CREATEDATE="2020-11-23T05:22:07.441+01:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">Po do sedaj znanih podatkih je bilo v okolici Rogaške Slatine (od Dobovca do Podčetrtka) med Nemčijo in NDH štirinajst mejnih prehodov. To so bili: Št. 1: Furt zwischen Terlitschner und Hromec, neformalno ime: »Terlično-Hromec«; maloobmejni promet. Št. 2: St. Rochus-Burmanec; Eisenbahnübergang (železnica) za velikoobmejni promet. Št. 3: Brücke bei Grenzpfahl 75, Fahrweg von Dobrowetz nach Lupinjek beim kroatischen Schulhaus; maloobmejni promet. Št. 4: St. Rochus-Lupinjak; neformalno ime: »St. Rochus-Lupinjak«; maloobmejni promet; tudi Strassenübergang za velikoobmejni promet. Št. 5: Steg und Furt bei Grenzpfahl 63 nördlich von Klenovec; maloobmejni promet. Št. 6: Brücke bei Grenzpfahl 59; malooobmejni promet. Št. 7: Rohitsch-Hum; velikoobmejni promet. Št. 8: Brücke bei Grenzpfahl 38, Gehöft Meringovetz; maloobmejni promet. Št. 9: Clementbrücke oz. Klementbrücke, Brücke bei Grenzpfahl 31 (tudi: Clementbrücke Grenzpfahl 31) ; neformalno ime: »Pri Klemenovem«, »Pri Klemenu«, »Čez Klemenovo« ; maloobmejni promet. Št. 10: Brücke bei Grenzpfahl 29; neformalno ime: »Čerena« ; maloobmejni promet. Št. 11: Brücke bei Grenzpfahl 27 tudi Zurmanbrücke- Schwerko Grenzpfahl 27; neformalna imena: »pri Mlinarčku«, »pri Mlinarju«, »pri Mlinu«, »pri Šerbaki «, »Stari Col« ; maloobmejni promet. Št. 12: Brücke bei Grenzpfahl 19 (tudi Borschitz Grenzpfahl 19); neformalno ime: Pri »Bajti«; maloobmejni promet. Št. 13: Nimno-Brezno Grenzpfahl 10; maloobmejni promet.</dc:description>
+            <dc:description xml:lang="eng">According to the data known so far, there were fourteen border crossings between Germany and the NDH in the vicinity of Rogaška Slatina (from Dobovec to Podčetrtek). They were: No. 1: Furt zwischen Terlitschner und Hromec, informal name: “Terlično-Hromec”; local border traffic. No. 2: St. Rochus-Burmanec; Eisenbahnübergang (railway) for international border traffic. No. 3: Brücke bei Grenzpfahl 75, Fahrweg von Dobrowetz nach Lupinjek beim kroatischen Schulhaus; local border traffic. No. 4: St. Rochus-Lupinjak; informal name: “St. Rochus-Lupinjak”; local border traffic; also Strassenübergang for international border traffic. No. 5: Steg und Furt bei Grenzpfahl 63 nördlich von Klenovec; local border traffic. No. 6: Brücke bei Grenzpfahl 59; local border traffic. No. 7: Rohitsch-Hum; international border traffic. No. 8: Brücke bei Grenzpfahl 38, Gehöft Meringovetz; local border traffic. No. 9: Clementbrücke or Klementbrücke, Brücke bei Grenzpfahl 31 (also: Clementbrücke Grenzpfahl 31); informal name: “Pri Klemenovem”, “Pri Klemenu”, “Čez Klemenovo”; local border traffic. No. 10: Brücke bei Grenzpfahl 29; informal name: “Čerena”; local border traffic. No. 11: Brücke bei Grenzpfahl 27 also Zurmanbrücke-Schwerko Grenzpfahl 27; informal names: “pri Mlinarčku”, “pri Mlinarju”, “pri Mlinu”, “pri Šerbaki”, “Stari Col”; local border traffic. No. 12: Brücke bei Grenzpfahl 19 (also Borschitz Grenzpfahl 19); informal name: “pri Bajti”; local border traffic. No. 13: Nimno-Brezno Grenzpfahl 10; local border traffic.</dc:description>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2313"
+                    OWNERID="exh02-Meje-pano9-image1.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2313"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh02-Meje-pano9-image1.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2313"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

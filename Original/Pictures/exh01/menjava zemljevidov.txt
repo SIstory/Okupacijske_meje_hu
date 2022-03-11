@@ -1,0 +1,10 @@
+Zemljevidi ki zamenjujejo dosedanje. 
+
+Ime datoteke je v obliki Prva beseda razstave_Prva beseda panoja nato številka zemljevida, če jih je več. Spletni naslov pa je kateri sedanji zamljevid naj se zamenja. Pano dva pamni na katerem 
+
+Mejni_Naredite 1 https://www2.sistory.si/publikacije/razstave/Okupacijske_meje/Pictures/exh01/exh01-Meje-pano1-image4.jpg
+
+Mejni_okupacija 1 https://www2.sistory.si/publikacije/razstave/Okupacijske_meje/Pictures/exh01/exh01-Meje-pano2-image1.jpg
+
+
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2456"
+           OBJID="http://hdl.handle.net/20.500.12325/file2456">
+   <METS:metsHdr CREATEDATE="2021-04-07T18:24:47.44+02:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:creator>Flajšman, Božidar</dc:creator>
+            <dc:description xml:lang="slv">Vida Urgl (roj. 1927) v bližini križišča Ceste Andreja Bitenca in Celovške ceste v Ljubljani, kjer je med drugo svetovno vojno potekala meja med Italijo in Nemčijo (mejni blok pri Šentvidu). Vida se je pretihotapila skozi ožičeno Ljubljano do italijansko- -nemške meje pri mejnem bloku pri Šentvidu. Stražarji je niso pustili čez mejo, čeprav so jo na nemški strani čakali sorodniki, ki so ji prinesli čevlje. Ni jim preostalo drugega, kot da so ji čevlje vrgli preko ožičene meje. Ljubljana, 7. december 2018.</dc:description>
+            <dc:description xml:lang="eng">Vida Urgl (b. 1927) next to the junction of Cesta Andreja Bitenca and Celovška cesta in Ljubljana, where the border between Italy and Germany ran during World War II (border block at Šentvid). Vida smuggled herself across the wire of Ljubljana to the border between Italy and Germany at the border block in Šentvid. The guards wouldn't let her across even though she had relatives waiting for her on the German side with a pair of shoes. They had no choice but to toss the shoes over the wire. Ljubljana, 7 December 2018.</dc:description>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2456"
+                    OWNERID="exh05-Meje-pano8-image6.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2456"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh05-Meje-pano8-image6.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2456"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

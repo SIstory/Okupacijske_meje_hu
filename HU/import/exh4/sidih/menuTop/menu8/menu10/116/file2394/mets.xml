@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2394"
+           OBJID="http://hdl.handle.net/20.500.12325/file2394">
+   <METS:metsHdr CREATEDATE="2021-04-07T15:59:35.749+02:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">Meja je kmalu začela povzročati številne probleme, tudi gospodarske. V dopisu Občine Metlika, ki je bil 16. avgusta 1941 poslan Visokemu komisariatu za Ljubljansko pokrajino v Ljubljani, lahko preberemo: »Hrvaški posestniki, ki imajo svojo zemljo poleg naših vinogradov grozijo našim vinogradnikom, da si pridelka v jeseni ne bodo smeli odpeljati s Hrvaške strani. /…/ Pripominjamo tudi, da je precej hrvaških posestnikov, ki imajo svojo zemljo na naši strani in so izvažali seno, drva, kakor tudi druge stvari s svojih posestev, pa jim tukajšnje oblasti niso delale nikakršnih težkoč. Enako naj bi torej postopale tudi Hrvaške oblasti.«</dc:description>
+            <dc:description xml:lang="eng">The border soon began causing many problems, including economic ones. A letter from the Municipality of Metlika, dated 16 August 1941, to the High Commissariat of the Province of Ljubljana in Ljubljana reads as follows: »The Croatian landowners who own land next to our vineyards are threatening our winegrowers that they won't be allowed to take their crop from the Croatian side in autumn. /…/ Let us mention that there are quite a few Croatian landowners who own land on our side and who have exported hay, wood and other items from their properties and were never hassled by the local authorities. The Croatian authorities should do the same.«</dc:description>
+            <dcterms:provenance>Arhiv Republike Slovenije</dcterms:provenance>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2394"
+                    OWNERID="exh04-Meje-pano8-image2.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2394"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh04-Meje-pano8-image2.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2394"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

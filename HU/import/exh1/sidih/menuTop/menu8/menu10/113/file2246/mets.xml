@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2246"
+           OBJID="http://hdl.handle.net/20.500.12325/file2246">
+   <METS:metsHdr CREATEDATE="2020-11-22T20:15:11.429+01:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:title xml:lang="slv">Ostanki italijanskega bunkerja pri Rosalnicah, postavljeni so bili na vzpetinah sredi polj</dc:title>
+            <dc:title xml:lang="eng">Remains of an Italian bunker at Rosalnice. These bunkers were erected on elevations in the middle of fields</dc:title>
+            <dc:creator>Bezenšek, Sonja</dc:creator>
+            <dc:description xml:lang="slv">Črnomaljski župnik Lojze Jože Žabkar je v svojem dnevniku 3. avgusta 1943 zapisal: »Metliški prošt Alfonz Klemenčič danes goduje, zato sem se ob enajstih odpeljal k njemu. Metlika – sami bunkerji, žice, jarki. Italijani še zmeraj napenjajo žico (Rosalnice – Slamna vas). Čemu, ko se imperij podira? Mnogi lepi spomini me vežejo na Metliko – tu sem bil pred šestimi leti kaplan in sem se odlično počutil. A danes je vse drugače.« Žabkar, Izpovedi (pesmi in dnevnik), 89.</dc:description>
+            <dc:description xml:lang="eng">The parish priest of Črnomelj, Lojze Jože Žabkar, wrote in his journal on 3 August 1943: “The provost of Metlika Alfonz Klemenčič is celebrating his name day today, so I drove there at eleven o’clock. Metlika – nothing but bunkers, wires, trenches. The Italians are still stringing the wire (Rosalnice – Slamna vas). What for, when the empire is collapsing? I have many fond memories of Metlika – I was a curate there six years ago and it was wonderful. But today everything is different.” Source: Žabkar. Izpovedi (poems and diary), 89.</dc:description>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2246"
+                    OWNERID="exh01-Meje-pano6-image2.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2246"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh01-Meje-pano6-image2.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2246"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

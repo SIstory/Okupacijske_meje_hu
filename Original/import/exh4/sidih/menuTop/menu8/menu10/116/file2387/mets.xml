@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2387"
+           OBJID="http://hdl.handle.net/20.500.12325/file2387">
+   <METS:metsHdr CREATEDATE="2021-04-07T15:59:35.749+02:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">Italijanski XI. armadni zbor je v prvotnih načrtih za zaprtje meje z NDH iz prve polovice leta 1942 predvideval varovanje meje ob reki Kolpi z utrjenimi postojankami in brez neprekinjene bodeče žice. V načrtu za varovanje meje iz 20. avgusta 1943 pa je 14. pehotna divizija Isonzo, predvidevala 100 bunkerjev oziroma utrdb z oboroženo stražo (kar pomeni 2 bunkerja za dolžino enega kilometra) in bodečo žico med železniškim mostom pri Rosalnicah in vasjo Severin na Kupi (južno od Sinjega Vrha, na desnem bregu Kolpe). Tega načrta niso uresničili. Poročilo 14. pehotne divizije Isonzo o predvidenem številu bunkerjev in njihovi oborožitvi ob trasi utrjene meje med Gorjanci, železniškim mostom čez Kolpo in Severinom na Kupi, 20. avgust 1943.</dc:description>
+            <dc:description xml:lang="eng">The original plans for closing the border with the NDH from the first half of 1942 envisaged that the Italian 11th Corps would guard the border along the Kolpa River with fortified posts, without a continuous barbed wire fence. In the plan for protecting the border dated 20 August 1943, the Isonzo Division envisaged 100 bunkers or forts with armed guards (meaning 2 bunkers for each kilometre of wire) and barbed wire between the railway bridge at Rosalnice and the village of Severin na Kupi (south of Sinji Vrh, on the right bank of the Kolpa River). That plan was never realized. A report from the Isonzo Division about the planned number of bunkers and their armament along the route of the fortified border between the Gorjanci/ Žumberak mountain range, the railway bridge over the Kolpa River and Severin na Kupi, 20 August 1943.</dc:description>
+            <dcterms:provenance>Arhiv Republike Slovenije</dcterms:provenance>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2387"
+                    OWNERID="exh04-Meje-pano6-image4.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2387"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh04-Meje-pano6-image4.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2387"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2489"
+           OBJID="http://hdl.handle.net/20.500.12325/file2489">
+   <METS:metsHdr CREATEDATE="2021-04-07T18:24:47.44+02:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:creator>Flajšman, Božidar</dc:creator>
+            <dc:description xml:lang="slv">»Nahajamo se pred nemško obmejno barako, katero so zgradili Nemci med drugo svetovno vojno, katero so pa napadli partizani in jo požgali. Bila je lesena, spodaj je bila betonska, zidana, potem pa leseni tramovi oz. lesena konstrukcija v dveh štukih. Vidi se še tudi obzidje in temelji za stebre, ki so držali verando /…/ Prišlo se je z obeh koncev … na verando, tako da so Nemci imeli pogled na celo Ljubljano. Ta gozd je bil požagan in požgan, ves les pa je bil poslan v Nemčijo preko tovorne postaje v Zalogu /…/ To je bila obmejna karavla, v kateri so Nemci imeli tudi svojo konjenico. Tukaj je bil bel pesek in štale s konji. Tle kjer je njiva pa je bilo vojaško strelišče. Ko sem oral njivo je bilo notri na stotine in stotine praznih čaver /…/« Pričevanje Metoda Strojinca (roj. 1959) iz Pečarja (Kašeljski grič). Metod sedi na betonskih stopnicah, ki so do partizanskega napada in požiga postojanke vodile na verando. Za Nemci je ostal kolut bodeče žice, bajonet, čelada, konjska podkev in ena klamfa.</dc:description>
+            <dc:description xml:lang="eng">”We are in front of the German border barracks which was built by the Germans in World War II, and burnt down in an attack by the Partisans. It was a wooden structure, with a concrete base, brickwork and a wooden beam construction over two storeys. You can still see the walls and foundations of the pillars holding up the porch/.../ You could access it from two sides ... the porch ... so the Germans could overlook all of Ljubljana. This forest was cut and burnt down; all wood was sent to Germany via the freight station in Zalog/.../. This was a border guardhouse in which the Germans also had its cavalry. There was white sand on the ground here and a stable with horses. Where the field is now, there used to be a military shooting-range. When I was ploughing the field I found hundreds and hundreds of empty bullet casings /.../” Account by Metod Strojinc (b. 1959) from Pečar (Kašelj Hill). Metod sitting on the concrete stairs leading up to the porch of the post that was later burnt down in a Partisan raid. The Germans left a reel of barbed wire, a bayonet, a helmet, a horseshoe and one clamp.</dc:description>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2489"
+                    OWNERID="exh05-Meje-pano15-image5.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2489"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh05-Meje-pano15-image5.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2489"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2305"
+           OBJID="http://hdl.handle.net/20.500.12325/file2305">
+   <METS:metsHdr CREATEDATE="2020-11-23T05:22:07.441+01:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">»Moje in mamino pregnanstvo in prekletstvo«: dnevniški zapiski Marije Drimel o grozovitem dogajanju v obdobju od začetka julija 1942 do 30. julija 1945. Večji del strani je avtorica popisala v veliki tajnosti za žicami največjega koncentracijskega taborišča Auschwitz. Prvi zapisek je bil vpisan 7. julija 1942, še pred deportacijo v taborišče, ko je Rogaško Slatino doletela ena najhujših usod. Tistega dne so nemške čete, po izdajalstvu ujetega in mučenega domačina, v svoje kamione izpred tovarne stekla strpale 27 ubogih steklarjev in jih odpeljale v Stari pisker. V celjskem zaporu so jih nato v naslednjih tednih in mesecih pred »zidom smrti« pokosili usodni streli nacističnega orožja.</dc:description>
+            <dc:description xml:lang="eng">“Mine and My Mother's Exile and Curse”: the diary entries of Marija Drimel about the horrific events in the period from early July 1942 to 30 July 1945. The author wrote most of the pages in great secrecy behind the barbed wire of the largest concentration camp, Auschwitz. The first entry was written on 7 July 1942, even before being deported to the camp, when Rogaška Slatina was dealt one of the hardest blows. On that day, after capturing and torturing a local to get information, German troops crammed 27 poor glassworkers into their lorries in front of the glassworks, and took them to the Stari pisker prison. In the following weeks and months, they were shot to death by Nazis in front of the “death wall” in this Celje prison.</dc:description>
+            <dcterms:provenance>Maša in Leon Drimel</dcterms:provenance>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2305"
+                    OWNERID="exh02-Meje-pano7-image5.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2305"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh02-Meje-pano7-image5.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2305"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

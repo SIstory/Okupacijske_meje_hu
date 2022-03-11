@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2371"
+           OBJID="http://hdl.handle.net/20.500.12325/file2371">
+   <METS:metsHdr CREATEDATE="2021-04-07T15:59:35.749+02:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">Iz poročila Žandarmerijske stanice Dolnji Suhor je razvidno, da je 20 posameznikov iz vasi v okolici Suhorja zbiralo podpise za priključitev Bele krajine k Nemčiji. Skupaj z občani občin Gradac in Semič so jih od 5. do 8. maja 1941 odnesli na nemško komando v Brežice. Nanjo so naslovili tudi prošnjo, da Nemci čim prej zasedejo oz. okupirajo Belo krajino. To se ni zgodilo, čeprav so jim Nemci zatrdili, da bodo prišli 10. maja, kot piše v omenjenem poročilu</dc:description>
+            <dc:description xml:lang="eng">The report of the Dolnji Suhor Gendarmerie Station clearly shows that 20 individuals from villages in the vicinity of Suhor were collecting signatures for the annexation of Bela krajina to Germany. Together with the citizens of the municipalities of Gradac and Semič, they took the signatures to the German command in Brežice between 5 and 8 May 1941, requesting that the Germans occupy Bela krajina as soon as possible. That never happened, even though the aforementioned report mentions that the Germans said they would arrive on 10 May.</dc:description>
+            <dc:source>Izsek iz poročila Žandarmerijske stanice Dol. Suhor (št. 79, 12. maj 1941) sreskemu načelstvu v Črnomlju.</dc:source>
+            <dcterms:provenance>Arhiv Republike Slovenije</dcterms:provenance>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2371"
+                    OWNERID="exh04-Meje-pano4-image1.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2371"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh04-Meje-pano4-image1.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2371"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

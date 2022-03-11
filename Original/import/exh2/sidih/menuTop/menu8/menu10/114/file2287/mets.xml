@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2287"
+           OBJID="http://hdl.handle.net/20.500.12325/file2287">
+   <METS:metsHdr CREATEDATE="2020-11-23T05:22:07.441+01:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:title xml:lang="slv">Adolf Hitler na ogledu porušenega dravskega mostu v Mariboru, 26. aprila 1941</dc:title>
+            <dc:title xml:lang="eng">Adolf Hitler inspecting the demolished bridge over the Drava River in Maribor, 26 April 1941</dc:title>
+            <dc:description xml:lang="slv">V literaturi se zmotno omenja, da je Hitler znani stavek »Napravite mi to deželo spet nemško« izrekel v svojem govoru z balkona mariborske mestne hiše 26. aprila 1941. V resnici je to – glede na govor šefa civilne uprave Štajerske dr. Uiberreitherja, ki ga je imel 28. aprila 1941 prav tako na balkonu mariborske mestne hiše – naročil prej. V govoru je Uiberreither dejal, da ga je Hitler naslovil s citatom ob predaji uprave tri tedne pred tem (Ferenc 1968, 125; »Der Dank …« 1941, 4).</dc:description>
+            <dc:description xml:lang="eng">It is incorrectly mentioned in literature that Hitler uttered the famous sentence “Make this country German again” in his speech given on the balcony of the town hall in Maribor on 26 April 1941. In reality – according to the speech given by the Chief of the Civil Administration of Styria Uiberreither PhD on 28 April 1941, likewise on the balcony of the town hall in Maribor – he had given that order earlier. In his speech Uiberreither said that Hitler had addressed him with those words when handing over the administration three weeks earlier (Ferenc 1968, 125; “Der Dank …” 1941, 4).</dc:description>
+            <dcterms:provenance>Muzej novejše zgodovine Slovenije</dcterms:provenance>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2287"
+                    OWNERID="exh02-Meje-pano5-image1.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2287"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh02-Meje-pano5-image1.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2287"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

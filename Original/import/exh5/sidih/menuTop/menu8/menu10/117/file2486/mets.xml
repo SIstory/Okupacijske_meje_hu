@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2486"
+           OBJID="http://hdl.handle.net/20.500.12325/file2486">
+   <METS:metsHdr CREATEDATE="2021-04-07T18:24:47.44+02:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:creator>Flajšman, Božidar</dc:creator>
+            <dc:description xml:lang="slv">»Prešvercala sem se čez žico ljubljansko, ker nisem imela dovolilnice. Nisem je dobila, ker je bil oče v Dachau. Tle je bila pa državna meja, to se spomnim, ker sem zadaj cerkev vidla v Šentvidu. Teta je prišla od cerkve gor, ker smo bili domenjeni, da se tuki dobimo. Meni je prinesla čevlje, pa Nemc ni pustu, da bi mi jih dala. Tu smo morali skupi priti, da bi mi jih dala. Pa smo samo vpili čez mejo. Pol je pa ona čevlje sezula in mi jih je čez vrgla, da sem jih jaz dobila, ona pa je ostala bosa, druge je imela v ruksaku.« Pričevanje Vide Urgl (roj. 1927).</dc:description>
+            <dc:description xml:lang="eng">”I smuggled myself across the wire of Ljubljana since I didn't have a pass. I couldn't get one as my father was in Dachau. The state border ran there, I remember that much, because I could see the church in Šentvid behind it. My aunt came up from the direction of the church; we set up to meet here. She brought me shoes but the German soldier wouldn't let her give them to me. We had to meet up here so she could hand them over to me. We just yelled across the border. Next thing I know, she took her shoes off and threw them over so I caught them. She was standing there barefoot, with another pair in her backpack.” Account by Vida Urgl (b. 1927).</dc:description>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2486"
+                    OWNERID="exh05-Meje-pano15-image2.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2486"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh05-Meje-pano15-image2.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2486"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

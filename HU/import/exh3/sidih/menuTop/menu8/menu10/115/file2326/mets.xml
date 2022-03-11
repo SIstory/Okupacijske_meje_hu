@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2326"
+           OBJID="http://hdl.handle.net/20.500.12325/file2326">
+   <METS:metsHdr CREATEDATE="2020-11-24T09:09:29.803+01:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">Prve partizanske oborožene akcije proti fašistični nadoblasti so se na Idrijskem začele leta 1942 pod vodstvom Janka Premrla - Vojka. Med drugim je vodil napad na italijansko utrdbo pri Črnem Vrhu ter na stražarsko posadko na Marofu pri Idriji. Posebno sodišče za zaščito države je Janka Premrla junija 1942 v odsotnosti obsodilo na smrt. Goriški prefekt je za njim razpisal tiralico in obljubil visokih 50.000 lir nagrade. 15. februarja 1943 je bil v boju s posadko fašistične gozdne milice ob cesti v Idrijsko Belo težko ranjen, teden kasneje pa je za posledicami ran umrl.</dc:description>
+            <dc:description xml:lang="eng">The first Partisan armed actions against the Fascist supremacy in Idrija started in 1942. They were led by Janko Premrl - Vojko. Among other things, Vojko led the attack against the Italian fortress at Črni Vrh and against the sentry crew at Marof near Idrija. In June 1942, a special court for the protection of the state senteced Janko Premrl in absence to death. The Prefect of Gorizia issued a search warrant, and promised the high amount of 50,000 lire to anyone who would find him. On 15 February 1943, he was badly wounded after fighting against the crew of Fascist forest militia by the road leading to Idrijska Bela. He died one week later as the result of the wound.</dc:description>
+            <dcterms:provenance>Muzej novejše zgodovine Slovenije</dcterms:provenance>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2326"
+                    OWNERID="exh03-Meje-pano3-image4.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2326"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh03-Meje-pano3-image4.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2326"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

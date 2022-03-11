@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2302"
+           OBJID="http://hdl.handle.net/20.500.12325/file2302">
+   <METS:metsHdr CREATEDATE="2020-11-23T05:22:07.441+01:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">Anton Belcer, rojen leta 1923, spada v skupino prvih vojnih mobilizirancev na Spodnjem Štajerskem, saj ga je prisilni vpoklic v nemško kopensko vojsko (Heer) doletel že julija 1942, ko je okupator pričel z vpoklicem prvega letnika (tj. 1923). V nasprotju s posebno odredbo o pošiljanju tega letnika najprej v delovno službo, šele nato pa v Wehrmacht je bil Anton odposlan direktno na fronto. Boril se je v tankovski lovski enoti na Finskem in Norveškem, kjer so ga zajeli Angleži. V borbah je utrpel hude ozebline nog, zaradi česar so mu morali odrezati 2 prsta na nogi.</dc:description>
+            <dc:description xml:lang="eng">Anton Belcer, born in 1923, was included in the group of the first military conscripts in Lower Styria; he was forced to enlist in the German Army (Heer) as early as July 1942, when the occupying forces began to enlist the first men, i.e. those born in 1923. Contrary to the special decree on sending men born in that year to the Labour Service and only afterwards to the Wehrmacht, Anton was sent directly to the front. He fought in the tank-hunting unit in Finland and Norway, where he was captured by the British. He suffered severe frostbite in battle and they had to amputate two of his toes.</dc:description>
+            <dc:source>Program prisilno mobiliziranih v nemško vojsko, Muzej novejše zgodovine Slovenije, 19. 9. 2017. Objavljeno z dovoljenjem Irene Poharc, ki hrani izvirnik.</dc:source>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2302"
+                    OWNERID="exh02-Meje-pano7-image2.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2302"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh02-Meje-pano7-image2.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2302"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

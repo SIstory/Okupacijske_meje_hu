@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2312"
+           OBJID="http://hdl.handle.net/20.500.12325/file2312">
+   <METS:metsHdr CREATEDATE="2020-11-23T05:22:07.441+01:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">Materialni ostanki vojne so tudi ostanki utrjenih obrambnih linij, pozicij ali meja iz časa druge svetovne vojne na slovenskem ozemlju. Številne jarke ali temelje različnih zgradb lahko še danes prepoznamo v pokrajini. Sledenje tem ostankom na terenu je časovno zahtevno ter marsikje oteženo zaradi v zadnjih sedmih desetletjih močno spremenjene kulturne pokrajine. Za Slovenijo je bil v povojnem obdobju predvsem značilen proces opuščanja zemljišč in posledično zaraščanje kulturne pokrajine. Pri odkrivanju tovrstnih ostankov si zgodovinarji v zadnjih letih pomagamo z laserskim skeniranjem površja. LiDAR (Light Detection And Ranging oziroma svetlobno zaznavanje in merjenje razdalj ali Laser Imaging Detection And Ranging oziroma lasersko snemanje, zaznavanje in merjenje razdalj) je učinkovitejše v primerjavi z letalskimi posnetki, ker »vidi« skozi rastje. To omogoča izdelavo zelo natančnega digitalnega modela reliefa (DMR) z ločljivostjo 1 m ali boljšo, ki omogoča, da v pokrajini prepoznamo elemente te velikosti.</dc:description>
+            <dc:description xml:lang="eng">The material remains of the war also include the remains of fortified defensive lines, positions or borders from the time of World War II on Slovene territory. We can still recognise many trenches or foundations of various buildings in the landscape today. Tracking these remains in the field is time-consuming and often made difficult because the cultural landscape has changed greatly over the last seven decades. Characteristic of Slovenia in the post-war period was the process of land abandonment and the consequent overgrowing of the cultural landscape. In recent years, historians have been making use of laser surface scanning to detect such remains. LiDAR (Light Detection and Ranging or Laser Imaging Detection and Ranging) is more efficient compared to aerial photography as it can “see” through vegetation. This enables the making of a highly precise Digital Relief Map (DRM) in a resolution of 1m or higher, which enables us to identify elements of such size in the landscape.</dc:description>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2312"
+                    OWNERID="exh02-Meje-pano8-image5.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2312"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh02-Meje-pano8-image5.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2312"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>

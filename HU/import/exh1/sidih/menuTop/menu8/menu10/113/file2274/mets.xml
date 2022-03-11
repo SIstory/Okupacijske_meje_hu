@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/"
+           xmlns:xlink="http://www.w3.org/TR/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           TYPE="file"
+           ID="si4.file2274"
+           OBJID="http://hdl.handle.net/20.500.12325/file2274">
+   <METS:metsHdr CREATEDATE="2020-11-22T20:15:11.429+01:00"
+                 LASTMODDATE=""
+                 RECORDSTATUS="Active">
+      <METS:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+         <METS:name>Sidih</METS:name>
+         <METS:note>https://sidih.si</METS:note>
+      </METS:agent>
+      <METS:agent ROLE="CREATOR" ID="3" TYPE="INDIVIDUAL">
+         <METS:name>Pančur, Andrej</METS:name>
+      </METS:agent>
+   </METS:metsHdr>
+   <METS:dmdSec ID="description">
+      <METS:mdWrap MDTYPE="DC">
+         <METS:xmlData xmlns:dc="http://purl.org/dc/elements/1.1/"
+                       xmlns:dcterms="http://purl.org/dc/terms/"
+                       xmlns:dcmitype="http://purl.org/dc/dcmitype/">
+            <dc:description xml:lang="slv">16. aprila 1941 so Nemci oblast v Prekmurju predali Madžarom, razen v štirih naseljih na severozahodu pokrajine. Na skici je nemško-madžarska meja pri naselju Serdica (Seregháza), z vrisanim spornim območjem (vitás terület). V Serdici je bila meja po reki Ledavi. Na mostu med dvema deloma vasi jo je nemški oficir začrtal kar s škornjem, predmet spora pa je bil mlin na madžarski strani vasi, ki je bil v nemški lasti. Prehodi meje in omejen prenos dobrin so bili mogoči, a ob strogi nemški kontroli. Niso pa smeli kupčevati z živino, ki je morala biti označena (D za Nemčijo in U za Madžarsko).</dc:description>
+            <dc:description xml:lang="eng">On 16 April 1941, Germans handed over control of Prekmurje to the Hungarians, except in four settlements in the northwest of the region. The sketch shows the German- Hungarian border at the settlement of Serdica (Seregháza), with the disputed area (vitás terület) drawn in. In Serdica the border ran along the Ledava River. On the bridge between the two parts of the village, a German officer drew the border with his boot; the subject of dispute was a mill on the Hungarian side of the village, which was owned by Germans. Border crossings and a limited transfer of goods were possible but under strict German supervision. People were not allowed to trade in livestock and it had to be marked (D for Germany and U for Hungary).</dc:description>
+            <dc:source>MNL OL K-64 - 1942 - 41.(96. cs.).</dc:source>
+         </METS:xmlData>
+      </METS:mdWrap>
+   </METS:dmdSec>
+   <METS:amdSec ID="amd">
+      <METS:techMD ID="tech.premis">
+         <METS:mdWrap MDTYPE="PREMIS:OBJECT" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:premis="http://www.loc.gov/premis/v3">
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>si4</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>Local name</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectIdentifier>
+                  <premis:objectIdentifierType>hdl</premis:objectIdentifierType>
+                  <premis:objectIdentifierValue/>
+               </premis:objectIdentifier>
+               <premis:objectCategory>File</premis:objectCategory>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+      <METS:techMD ID="tech.si4">
+         <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SI4" MIMETYPE="text/xml">
+            <METS:xmlData xmlns:si4="http://si4.si/schema/">
+               <si4:additionalMetadata>false</si4:additionalMetadata>
+            </METS:xmlData>
+         </METS:mdWrap>
+      </METS:techMD>
+   </METS:amdSec>
+   <METS:fileSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="files">
+      <METS:fileGrp USE="DEFAULT">
+         <METS:file ID="file2274"
+                    OWNERID="exh01-Meje-pano10-image6.jpg"
+                    USE="DEFAULT"
+                    CREATED=""
+                    SIZE=""
+                    CHECKSUM=""
+                    CHECKSUMTYPE=""
+                    MIMETYPE="image/jpeg">
+            <METS:FLocat ID="file2274"
+                         USE="HTTP"
+                         LOCTYPE="URL"
+                         title="exh01-Meje-pano10-image6.jpg"
+                         href="http://hdl.handle.net/20.500.12325/file2274"/>
+         </METS:file>
+      </METS:fileGrp>
+   </METS:fileSec>
+   <METS:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   ID="structure"
+                   TYPE="primary"/>
+   <METS:behaviorSec xmlns:xlink="http://www.w3.org/1999/xlink" ID="si4.behavior">
+      <METS:behavior BTYPE="default">
+         <METS:mechanism LOCTYPE="URL" xlink:href="https://dihur.si/si4/sidih_behavior-default"/>
+      </METS:behavior>
+   </METS:behaviorSec>
+</METS:mets>
